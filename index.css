@@ -1,0 +1,100 @@
+.fundo {
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 140vh;
+    position: absolute;
+    z-index: -3;
+    object-fit: cover;
+    filter: brightness(100%);
+    margin: none;
+    background-color: #000
+}
+
+body {
+    color: #faebd7;
+    background-color: none;
+    font-family: sans-serif
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    
+    
+}
+ul div{
+    padding: 10px;
+    background-color: rgb(87, 22, 87);
+    border-radius: 10px 10px;
+    
+
+}
+
+
+a {
+    color: #faebd7;
+    text-decoration: none
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid red
+}
+
+footer img {
+    width: 40px;
+    height: 40px
+}
+
+footer {
+    display: flex;
+    justify-content: center
+}
+
+footer a {
+    text-align: center;
+    margin: 20px;
+    background-color: transparent
+}
+
+footer p {
+    margin-top: 10px;
+    background-color: transparent
+}
+
+.center {
+    text-align: center
+}
+
+.container {
+    padding: 0 50px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: #000
+}
+
+li {
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    margin: none;
+}
+
+.formulario {
+    position: fixed;
+    top: 40px;
+    width: 600px;
+    height: 300px;
+    z-index: 99;
+    left: 30%;
+    transition: 2s;
+
+}
